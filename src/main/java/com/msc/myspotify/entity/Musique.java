@@ -14,6 +14,7 @@ import javax.persistence.Table;
 public class Musique {
 
     @Id
+    @Column(name = "musique_id")
     private String id;
 
     @Column(name = "folder_id", nullable = false)
